@@ -4,8 +4,12 @@ const allInputs = form.querySelectorAll('input');
 
 const result = {};
 let k = 0;
-const data = new Date();
+let data;
 let timerId;
+
+function timer() {
+  set
+}
 
 function inputSearch(i) {
   i.forEach(function(item) {
@@ -41,6 +45,10 @@ function inputsEventListener() {
 };
 
 inputsEventListener();
+
+setInterval(() => {
+  return data = new Date();
+}, 2000);
 
 form.addEventListener('submit', function(evt){
   evt.preventDefault();
